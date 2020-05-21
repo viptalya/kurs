@@ -1,0 +1,110 @@
+.ssl a {
+  text-decoration:none;
+  color: #000
+}
+.app-container {
+  max-width: 1335px;
+  margin-right: auto;
+  margin-left: auto;
+}
+header{
+  height: 70px;
+  background: rgb(255, 255, 255) url(бургер.png) no-repeat 5% 50%;
+  background-size: 242px;
+  position: relative;
+}
+font{
+  position: right;
+}
+.Grid-container {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding: 2.25rem;
+  border-radius: 10px;
+  background: #f2f2f2;
+}
+.Section-root {
+  margin: 0 auto 15px;
+}
+.Section-block {
+  display: inline-flex;
+  flex-direction: column;
+  vertical-align: top;
+  width: 99%;
+}
+.RichBlock-root {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  flex-grow: 1;
+  transition: opacity .2s;
+  color: #000;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: inset 0 0 0 1px #e5e5e5;
+  -webkit-tap-highlight-color: transparent;
+}
+.RichBlock-contentWrap {
+  position: static;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-top: 0;
+  border-radius: 0 0 8px 8px;
+}
+.RichBlock-content {
+  flex-grow: 1;
+  padding: 14px 15px 15px;
+}
+.RichBlock-title {
+  flex-grow: 0;
+  margin-bottom: 20px;
+}
+.menu ul{
+  list-style: none; 
+  margin: 0; 
+  padding-left: 0;
+  margin-top:25px
+}
+.menu a{
+  text-decoration: none;
+  background: #f2f2f2; /* Цвет фона */
+  width: 200px;
+  position: relative;
+  top: 27.5px;
+  left: 300px;  
+  border-radius: 10px;
+  border: none;/* Без рамки */
+  padding: 12px 14px; /* Поля вокруг кнопки */
+  color: #000
+}
+.menu li {
+  float:left;
+  margin-right:5px;
+}
+.menu a:hover{
+  background: #f7e759;
+}
+.br {
+  background: rgb(255, 255, 255);
+  border: 15px solid #fff; /* Белая рамка */
+  border-radius: 10px; /* Радиус скругления */
+  margin: 0 auto 15px;
+}
+button {
+  background: #f2f2f2; /* Цвет фона */
+  border-radius: 10px;
+  border: none;/* Без рамки */
+  padding: 12px 14px; /* Поля вокруг кнопки */
+  color: #000;
+  outline: none;
+}
+button:hover {
+  background: #f7e759;
+}
+.strel{
+  text-decoration:none;
+  color: #000;
+}

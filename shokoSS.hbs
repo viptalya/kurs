@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app-container">
+    <header><a name="app"></a>
+        <div class="menu">
+        <ul>
+            <li><a href="curs.hbs">На главную</a></li>
+            <li><a href="SS.hbs">Садово-Спасская</a></li>
+            <li><a href="#lanch">Ланч</a></li>
+            <li><a href="#salati">Салаты</a></li>
+            <li><a href="#roll">Роллы, сендвичи</a></li>
+            <li><a href="#osnov">Основные блюда</a></li>
+            <li><a href="#napitki">Напитки</a></li>
+            <li><a href="#deserti">Десерты</a></li>
+        </ul>
+        </div>
+    </header>
+<div class="Grid-container">
+<font size="5"><img src="cafeSS/icons/shoko.png" alt="" width="50" height="37">Шоколадница</font>
+<div class="br">
+<font size="4"><a name="lanch">Ланч</a></font>
+<a href="#app" style="color: black"><svg class="bi bi-caret-up" width="30px" height="30px" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" d="M3.204 11L8 5.519 12.796 11H3.204zm-.753-.659l4.796-5.48a1 1 0 011.506 0l4.796 5.48c.566.647.106 1.659-.753 1.659H3.204a1 1 0 01-.753-1.659z" clip-rule="evenodd"/>
+    </svg></a>
+<br>
+<br>
+<div class="Section-root">
+<div class="row">
+    <div class="col-4">
+        <div class="Section-block">
+            <article class="RichBlock-root RichBlock-is1to3 RichBlock-isRich">
+                    <img src="cafeSS/shoko/lanch/diet.jpg" width="400px" height="300px">
+                    <div class="RichBlock-contentWrap">
+                            <div class="RichBlock-content">
+                                    <div class="RichBlock-title">
+                                        <div class="item_box">
+                                            <h4 class="item_title">Диетическая куриная грудка</h4>
+                                            <h5><font color="#f7e759"><span class="item_price">290</span>&#8381</font></h5>
+                                            <button class="add_item" data-id="1">Добавить в корзину</button>
+                                        </div>
+                                    </div>
+                            </div>
+                    </div>
+            </article>
+    </div>
+    </div>
+    <div class="col-4">
+        <div class="Section-block">
+            <article class="RichBlock-root RichBlock-is1to3 RichBlock-isRich">
+                    <img src="cafeSS/shoko/lanch/karb.jpg" width="400px" height="300px">
+                    <div class="RichBlock-contentWrap">
+                            <div class="RichBlock-content">
+                                    <div class="RichBlock-title">
+                                        <div class="item_box">
+                                            <h4 class="item_title">Карбонара</h4>
+                                            <h5><font color="#f7e759"><span class="item_price">330</span>&#8381</font></h5>
+                                            <button class="add_item" data-id="1">Добавить в корзину</button>
+                                        </div>
+                                    </div>
+                            </div>
+                    </div>
+            </article>
+    </div>
+    </div>
+    <div class="col-4">
+        <div class="Section-block">
+            <article class="RichBlock-root RichBlock-is1to3 RichBlock-isRich">
+                    <img src="cafeSS/shoko/lanch/klab.jpg" width="400px" height="300px">
+                    <div class="RichBlock-contentWrap">
+                            <div class="RichBlock-content">
+                                    <div class="RichBlock-title">
+                                        <div class="item_box">
+                                            <h4 class="item_title">Клаб-сэндвич</h4>
+                                            <h5><font color="#f7e759"><span class="item_price">330</span>&#8381</font></h5>
+                                            <button class="add_item" data-id="1">Добавить в корзину</button>
+                                        </div>
+                                    </div>
+                            </div>
+                    </div>
+            </article>
+    </div>
+    </div>
+</div>
+</div>
+</div>
+<div class="br">
+<font size="4"><a name="salati">Салаты</a></font>
+<a href="#app" style="color: black"><svg class="bi bi-caret-up" width="30px" height="30px" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" d="M3.204 11L8 5.519 12.796 11H3.204zm-.753-.659l4.796-5.48a1 1 0 011.506 0l4.796 5.48c.566.647.106 1.659-.753 1.659H3.204a1 1 0 01-.753-1.659z" clip-rule="evenodd"/>
+</svg></a>
+</svg>
+<br>
+<br>
+<div class="Section-root">
+    <div class="row">
+        <div class="col-4">
+            <div class="Section-block">
+                <article class="RichBlock-root RichBlock-is1to3 RichBlock-isRich">
+                        <img src="cafeSS/shoko/salati/cezar.jpg" width="400px" height="300px">
+                        <div class="RichBlock-contentWrap">
+                                <div class="RichBlock-content">
+                                        <div class="RichBlock-title">
+                                            <div class="item_box">
+                                                <h4 class="item_title">Цезарь с курицей</h4>
+                                                <h5><font color="#f7e759"><span class="item_price">370</span>&#8381</font></h5>
+                                                <button class="add_item" data-id="1">Добавить в корзину</button>
+                                            </div>
+                                        </div>
+                                </div>
+                        </div>
+                </article>
+        </div>
+        </div>
+        <div class="col-4">
+            <div class="Section-block">
+                <article class="RichBlock-root RichBlock-is1to3 RichBlock-isRich">
+                        <img src="cafeSS/shoko/salati/grech.jpg" width="400px" height="300px">
+                        <div class="RichBlock-contentWrap">
+                                <div class="RichBlock-content">
+                                        <div class="RichBlock-title">
+                                            <div class="item_box">
+                                                <h4 class="item_title">Греческий классический</h4>
+                                                <h5><font color="#f7e759"><span class="item_price">330</span>&#8381</font></h5>
+                                                <button class="add_item" data-id="1">Добавить в корзину</button>
+                                            </div>
+                                        </div>
+                                </div>
+                        </div>
+                </article>
+        </div>
+        </div>
+        <div class="col-4">
+            <div class="Section-block">
+                <article class="RichBlock-root RichBlock-is1to3 RichBlock-isRich">
+                        <img src="cafeSS/shoko/salati/venegret.jpg" width="400px" height="300px">
+                        <div class="RichBlock-contentWrap">
+                                <div class="RichBlock-content">
+                                        <div class="RichBlock-title">
+                                            <div class="item_box">
+                                                <h4 class="item_title">Винегрет с фасолью и грибами</h4>
+                                                <h5><font color="#f7e759"><span class="item_price">290</span>&#8381</font></h5>
+                                                <button class="add_item" data-id="1">Добавить в корзину</button>
+                                            </div>
+                                        </div>
+                                </div>
+                        </div>
+                </article>
+        </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="br">
+    <font size="4"><a name="roll">Роллы, сендвичи</a></font>
+    <a href="#app" style="color: black"><svg class="bi bi-caret-up" width="30px" height="30px" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" d="M3.204 11L8 5.519 12.796 11H3.204zm-.753-.659l4.796-5.48a1 1 0 011.506 0l4.796 5.48c.566.647.106 1.659-.753 1.659H3.204a1 1 0 01-.753-1.659z" clip-rule="evenodd"/>
+    </svg></a>
+    </svg>
+    <br>
+    <br>
+    <div class="Section-root">
+        <div class="row">
+            <div class="col-4">
+                <div class="Section-block">
+                    <article class="RichBlock-root RichBlock-is1to3 RichBlock-isRich">
+                            <img src="cafeSS/shoko/rollsand/brusket.jpg" width="400px" height="300px">
+                            <div class="RichBlock-contentWrap">
+                                    <div class="RichBlock-content">
+                                            <div class="RichBlock-title">
+                                                <div class="item_box">
+                                                    <h4 class="item_title">Брускетта по-сицилийски</h4>
+                                                    <h5><font color="#f7e759"><span class="item_price">330</span>&#8381</font></h5>
+                                                    <button class="add_item" data-id="1">Добавить в корзину</button>
+                                                </div>
+                                            </div>
+                                    </div>
+                            </div>
+                    </article>
+            </div>
+            </div>
+            <div class="col-4">
+                <div class="Section-block">
+                    <article class="RichBlock-root RichBlock-is1to3 RichBlock-isRich">
+                            <img src="cafeSS/shoko/rollsand/falafel.jpg" width="400px" height="300px">
+                            <div class="RichBlock-contentWrap">
+                                    <div class="RichBlock-content">
+                                            <div class="RichBlock-title">
+                                                <div class="item_box">
+                                                    <h4 class="item_title">Ролл фалафель «Каир»</h4>
+                                                    <h5><font color="#f7e759"><span class="item_price">270</span>&#8381</font></h5>
+                                                    <button class="add_item" data-id="1">Добавить в корзину</button>
+                                                </div>
+                                            </div>
+                                    </div>
+                            </div>
+                    </article>
+            </div>
+            </div>
+            <div class="col-4">
+                <div class="Section-block">
+                    <article class="RichBlock-root RichBlock-is1to3 RichBlock-isRich">
+                            <img src="cafeSS/shoko/rollsand/fil.jpg" width="400px" height="300px">
+                            <div class="RichBlock-contentWrap">
+                                    <div class="RichBlock-content">
+                                            <div class="RichBlock-title">
+                                                <div class="item_box">
+                                                    <h4 class="item_title">Ролл Филадельфия</h4>
+                                                    <h5><font color="#f7e759"><span class="item_price">270</span>&#8381</font></h5>
+                                                    <button class="add_item" data-id="1">Добавить в корзину</button>
+                                                </div>
+                                            </div>
+                                    </div>
+                            </div>
+                    </article>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="br">
+    <font size="4"><a name="osnov">Основные блюда</a></font>
+    <a href="#app" style="color: black"><svg class="bi bi-caret-up" width="30px" height="30px" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" d="M3.204 11L8 5.519 12.796 11H3.204zm-.753-.659l4.796-5.48a1 1 0 011.506 0l4.796 5.48c.566.647.106 1.659-.753 1.659H3.204a1 1 0 01-.753-1.659z" clip-rule="evenodd"/>
+    </svg></a>
+    </svg>
+    <br>
+    <br>
+    <div class="Section-root">
+        <div class="row">
+            <div class="col-4">
+                <div class="Section-block">
+                    <article class="RichBlock-root RichBlock-is1to3 RichBlock-isRich">
+                            <img src="cafeSS/shoko/osnov/burger.jpg" width="400px" height="300px">
+                            <div class="RichBlock-contentWrap">
+                                    <div class="RichBlock-content">
+                                            <div class="RichBlock-title">
+                                                <div class="item_box">
+                                                    <h4 class="item_title">Бургер c котлетой и беконом</h4>
+                                                    <h5><font color="#f7e759"><span class="item_price">390</span>&#8381</font></h5>
+                                                    <button class="add_item" data-id="1">Добавить в корзину</button>
+                                                </div>
+                                            </div>
+                                    </div>
+                            </div>
+                    </article>
+            </div>
+            </div>
+            <div class="col-4">
+                <div class="Section-block">
+                    <article class="RichBlock-root RichBlock-is1to3 RichBlock-isRich">
+                            <img src="cafeSS/shoko/osnov/grech.jpg" width="400px" height="300px">
+                            <div class="RichBlock-contentWrap">
+                                    <div class="RichBlock-content">
+                                            <div class="RichBlock-title">
+                                                <div class="item_box">
+                                                    <h4 class="item_title">Гречка с грибами</h4>
+                                                    <h5><font color="#f7e759"><span class="item_price">270</span>&#8381</font></h5>
+                                                    <button class="add_item" data-id="1">Добавить в корзину</button>
+                                                </div>
+                                            </div>
+                                    </div>
+                            </div>
+                    </article>
+            </div>
+            </div>
+            <div class="col-4">
+                <div class="Section-block">
+                    <article class="RichBlock-root RichBlock-is1to3 RichBlock-isRich">
+                            <img src="cafeSS/shoko/osnov/laz.jpg" width="400px" height="300px">
+                            <div class="RichBlock-contentWrap">
+                                    <div class="RichBlock-content">
+                                            <div class="RichBlock-title">
+                                                <div class="item_box">
+                                                    <h4 class="item_title">Лазанья по-неаполитански</h4>
+                                                    <h5><font color="#f7e759"><span class="item_price">330</span>&#8381</font></h5>
+                                                    <button class="add_item" data-id="1">Добавить в корзину</button>
+                                                </div>
+                                            </div>
+                                    </div>
+                            </div>
+                    </article>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="br">
+<font size="4"><a name="napitki">Напитки</a></font>
+<a href="#app" style="color: black"><svg class="bi bi-caret-up" width="30px" height="30px" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" d="M3.204 11L8 5.519 12.796 11H3.204zm-.753-.659l4.796-5.48a1 1 0 011.506 0l4.796 5.48c.566.647.106 1.659-.753 1.659H3.204a1 1 0 01-.753-1.659z" clip-rule="evenodd"/>
+</svg></a>
+<br>
+<br>
+<div class="Section-root">
+    <div class="row">
+        <div class="col-4">
+            <div class="Section-block">
+                <article class="RichBlock-root RichBlock-is1to3 RichBlock-isRich">
+                        <img src="cafeSS/shoko/napitki/icecoffe.jpg" width="400px" height="300px">
+                        <div class="RichBlock-contentWrap">
+                                <div class="RichBlock-content">
+                                        <div class="RichBlock-title">
+                                            <div class="item_box">
+                                                <h4 class="item_title">Айс-латте классический</h4>
+                                                <h5><font color="#f7e759"><span class="item_price">270</span>&#8381</font></h5>
+                                                <button class="add_item" data-id="1">Добавить в корзину</button>
+                                            </div>
+                                        </div>
+                                </div>
+                        </div>
+                </article>
+        </div>
+        </div>
+        <div class="col-4">
+            <div class="Section-block">
+                <article class="RichBlock-root RichBlock-is1to3 RichBlock-isRich">
+                        <img src="cafeSS/shoko/napitki/moxito.jpg" width="400px" height="300px">
+                        <div class="RichBlock-contentWrap">
+                                <div class="RichBlock-content">
+                                        <div class="RichBlock-title">
+                                            <div class="item_box">
+                                                <h4 class="item_title">Мохито безалкогольный</h4>
+                                                <h5><font color="#f7e759"><span class="item_price">330</span>&#8381</font></h5>
+                                                <button class="add_item" data-id="1">Добавить в корзину</button>
+                                            </div>
+                                        </div>
+                                </div>
+                        </div>
+                </article>
+        </div>
+        </div>
+        <div class="col-4">
+            <div class="Section-block">
+                <article class="RichBlock-root RichBlock-is1to3 RichBlock-isRich">
+                        <img src="cafeSS/shoko/napitki/sheik.jpg" width="400px" height="300px">
+                        <div class="RichBlock-contentWrap">
+                                <div class="RichBlock-content">
+                                        <div class="RichBlock-title">
+                                            <div class="item_box">
+                                                <h4 class="item_title">Шейк «Радужный Единорог»</h4>
+                                                <h5><font color="#f7e759"><span class="item_price">330</span>&#8381</font></h5>
+                                                <button class="add_item" data-id="1">Добавить в корзину</button>
+                                            </div>
+                                        </div>
+                                </div>
+                        </div>
+                </article>
+        </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="br">
+<font size="4"><a name="deserti">Десерты</a></font>
+<a href="#app" style="color: black"><svg class="bi bi-caret-up" width="30px" height="30px" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3.204 11L8 5.519 12.796 11H3.204zm-.753-.659l4.796-5.48a1 1 0 011.506 0l4.796 5.48c.566.647.106 1.659-.753 1.659H3.204a1 1 0 01-.753-1.659z" clip-rule="evenodd"/>
+</svg></a>
+<br>
+<br>
+<div class="Section-root">
+    <div class="row">
+        <div class="col-4">
+            <div class="Section-block">
+                <article class="RichBlock-root RichBlock-is1to3 RichBlock-isRich">
+                        <img src="cafeSS/shoko/disert/chez.jpg" width="400px" height="300px">
+                        <div class="RichBlock-contentWrap">
+                                <div class="RichBlock-content">
+                                        <div class="RichBlock-title">
+                                            <div class="item_box">
+                                                <h4 class="item_title">Чизкейк «Два шоколада»</h4>
+                                                <h5><font color="#f7e759"><span class="item_price">290</span>&#8381</font></h5>
+                                                <button class="add_item" data-id="1">Добавить в корзину</button>
+                                            </div>
+                                        </div>
+                                </div>
+                        </div>
+                </article>
+        </div>
+        </div>
+        <div class="col-4">
+            <div class="Section-block">
+                <article class="RichBlock-root RichBlock-is1to3 RichBlock-isRich">
+                        <img src="cafeSS/shoko/disert/mor.jpg" width="400px" height="300px">
+                        <div class="RichBlock-contentWrap">
+                                <div class="RichBlock-content">
+                                        <div class="RichBlock-title">
+                                            <div class="item_box">
+                                                <h4 class="item_title">Мороженое в ассортименте</h4>
+                                                <h5><font color="#f7e759"><span class="item_price">130</span>&#8381</font></h5>
+                                                <button class="add_item" data-id="1">Добавить в корзину</button>
+                                            </div>
+                                        </div>
+                                </div>
+                        </div>
+                </article>
+        </div>
+        </div>
+        <div class="col-4">
+            <div class="Section-block">
+                <article class="RichBlock-root RichBlock-is1to3 RichBlock-isRich">
+                        <img src="cafeSS/shoko/disert/tiramisu.jpg" width="400px" height="300px">
+                        <div class="RichBlock-contentWrap">
+                                <div class="RichBlock-content">
+                                        <div class="RichBlock-title">
+                                            <div class="item_box">
+                                                <h4 class="item_title">Тирамису</h4>
+                                                <h5><font color="#f7e759"><span class="item_price">270</span>&#8381</font></h5>
+                                                <button class="add_item" data-id="1">Добавить в корзину</button>
+                                            </div>
+                                        </div>
+                                </div>
+                        </div>
+                </article>
+        </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
